@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Portfolio website</title>
+    <link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css" rel="stylesheet">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js" defer></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+</head>
+
+
+
+<header>
+    <nav class="nav bd-grid">
+        <div>
+            <a href="index.html" class="nav__logo">Antonio</a>
+        </div>
+        <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="index.html" class="nav__link">About Me</a></li>
+                <li class="nav__item"><a href="skill.html" class="nav__link">Experience</a></li>
+                <li class="nav__item"><a href="visiter.html" class="nav__link">Visiters</a></li>
+                <!-- <li class="nav__item"><a href="slide.html" class="nav__link">Slider</a></li> -->
+            </ul>
+        </div>
+        <div class="nav__toggle" id="nav-toggle">
+            <i class="bx bx-menu"></i>
+        </div>
+    </nav>
+    <div class="display-container">
+        <div class="main_image">
+            <h1>About</h1>
+            <img src="./assets/img/123.jpg" alt="boat" style="width:100%;height:20%;min-height:280px;max-height:600px;">
+        </div>
+    </div>
+    <!-- <div class="display-container">
+        <img src="assets/img/123.jpg" alt="boat" style="width:100%;height:20%;min-height:280px;max-height:600px;">
+        <div class="container display-bottomleft margin-bottom">
+            <h1>About</h1>
+        </div>
+    </div> -->
+</header>
+
+<body>
+
+    <main class="l-main">
+
+        <section>
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/antonio.jpg" alt="">
+                    </div>
+                    <div>
+                        <h2 class="about__subtitle">I'am Shuo-Yuan Chang</h2>
+                        <p class="about__text">I'm a 2nd year master's student at university of pittsburgh.
+                            <br>
+                            <br>
+                            Full stack software development experience with HTML, CSS, JavaScript,PHP, SQL,
+                            Angular, NodeJS, MongoDB, Python and Java.<br>
+                            <br>
+                            I am also skilled in machine learning and data science with R and embedded systems
+                            engineering using C#.
+                        </p>
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="about section " id="about">
+                <h2 class="section-title">Technical Skills</h2>
+
+                <div class="skills__container bd-grid">
+                    <div>
+                        <h2 class="skills__subtitle">Profesional Skills</h2>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <span class="iconify" data-icon="cib:java" data-inline="false"></span>
+                                <span class="skills__name"> JAVA</span>
+                            </div>
+                            <div class="skills__bar skills__java">
+
+                            </div>
+                            <div>
+                                <span class="skills__percentage">85%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <span class="iconify" data-icon="bx:bxl-spring-boot" data-inline="false"></span>
+                                <span class="skills__name"> Spring Boot</span>
+                            </div>
+                            <div class="skills__bar skills__spring_boot">
+
+                            </div>
+                            <div>
+                                <span class="skills__percentage">80%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <span class="iconify" data-icon="bx:bxl-angular" data-inline="false"></span>
+                                <span class="skills__name"> Angular</span>
+                            </div>
+                            <div class="skills__bar skills__angular">
+
+                            </div>
+                            <div>
+                                <span class="skills__percentage">80%</span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <span class="iconify" data-icon="grommet-icons:mysql" data-inline="false"></span>
+                                <span class="skills__name"> MySQL</span>
+                            </div>
+                            <div class="skills__bar skills__myaql">
+
+                            </div>
+                            <div>
+                                <span class="skills__percentage">78%</span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <span class="iconify" data-icon="cib:docker" data-inline="false"></span>
+                                <span class="skills__name"> Docker</span>
+                            </div>
+                            <div class="skills__bar skills__docker">
+
+                            </div>
+                            <div>
+                                <span class="skills__percentage">78%</span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <span class="iconify" data-icon="bx:bxl-git" data-inline="false"></span>
+                                <span class="skills__name"> Git</span>
+                            </div>
+                            <div class="skills__bar skills__git">
+
+                            </div>
+                            <div>
+                                <span class="skills__percentage">75%</span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div>
+                        <img src="./assets/img/work1.jpg" alt="" class="skills__img">
+                    </div>
+                </div>
+            </section>
+
+            <section class="work section" id="work">
+                <h2 class="section-title">Selected Projects</h2>
+
+                <div class="work__container bd-grid">
+                    <div class="work__img">
+                        <h3>sample title</h3>
+                        <div class="content_img">
+                            <a href="skill.html#BCS" id="logo"> <img src="assets/img/work1.jpg" alt=""></a>
+                            <div>Click me</div>
+                        </div>
+                    </div>
+
+                    <div class="work__img">
+                        <h3>sample title</h3>
+                        <div class="content_img">
+                            <a href="skill.html#ES" id="logo"> <img src="assets/img/work1.jpg" alt=""></a>
+                            <div>Click me</div>
+                        </div>
+                    </div>
+
+                    <div class="work__img">
+                        <h3>sample title</h3>
+                        <div class="content_img">
+                            <a href="skill.html#YRRS" id="logo"> <img src="assets/img/work1.jpg" alt=""></a>
+                            <div>Click me</div>
+                        </div>
+                    </div>
+
+                    <div class="work__img">
+                        <h3>sample title</h3>
+                        <div class="content_img">
+                            <a href="skill.html#DCDC" id="logo"> <img src="assets/img/work1.jpg" alt=""></a>
+                            <div>Click me</div>
+                        </div>
+                    </div>
+
+                    <div class="work__img">
+                        <h3>sample title</h3>
+                        <div class="content_img">
+                            <a href="skill.html#MAWA" id="logo"> <img src="assets/img/work1.jpg" alt=""></a>
+                            <div>Click me</div>
+                        </div>
+                    </div>
+
+                    <div class="work__img">
+                        <h3>sample title</h3>
+                        <div class="content_img">
+                            <a href="skill.html#ABDQ" id="logo"> <img src="assets/img/work1.jpg" alt=""></a>
+                            <div>Click me</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+            <!-- <section>
+
+                <section class="skills section" id="skills">
+                    <h2 class="section-title">Timeline</h2>
+                    <div class="timeline">
+                        <div class="container_time leftt">
+                            <div class="content">
+                                <h2>2020</h2>
+                                <p>HARI Lab, University of Pittsburgh </p>
+                            </div>
+                        </div>
+                        <div class="container_time rightt">
+                            <div class="content">
+                                <h2>2019</h2>
+                                <p>University of Pittsburgh.</p>
+                            </div>
+                        </div>
+                        <div class="container_time leftt">
+                            <div class="content">
+                                <h2>2017</h2>
+                                <p>Jou Young Industrial Company.</p>
+                            </div>
+                        </div>
+                        <div class="container_time rightt">
+                            <div class="content">
+                                <h2>2016</h2>
+                                <p>Inteplast Group, Ltd. | World of Plastics. recommend intern</p>
+                            </div>
+                        </div>
+                        <div class="container_time leftt">
+                            <div class="content">
+                                <h2>2014</h2>
+                                <p>Ming Chi University of Technology</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+            </section> -->
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__title">Antonio</p>
+        <p>&#169; 2021 copyright all right reserved</p>
+    </footer>
+
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

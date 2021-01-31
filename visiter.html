@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>Portfolio website complete</title>
+    <link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css" rel="stylesheet">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js" defer></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+
+<header>
+    <nav class="nav bd-grid">
+        <div>
+            <a href="index.html" class="nav__logo">Antonio</a>
+        </div>
+        <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="index.html" class="nav__link">About Me</a></li>
+                <li class="nav__item"><a href="skill.html" class="nav__link">Experience</a></li>
+                <li class="nav__item"><a href="visiter.html" class="nav__link">Visiters</a></li>
+                <!-- <li class="nav__item"><a href="slide.html" class="nav__link">Slider</a></li> -->
+            </ul>
+        </div>
+        <div class="nav__toggle" id="nav-toggle">
+            <i class="bx bx-menu"></i>
+        </div>
+    </nav>
+    <div class="display-container">
+        <div class="main_image">
+          <h1>Visiters</h1>
+          <img src="./assets/img/123.jpg" alt="boat" style="width:100%;height:20%;min-height:280px;max-height:600px;">
+        </div>
+      </div>
+</header>
+
+
+
+<main class="l-main">
+
+    <section>
+
+
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Leave the Comment</h2>
+
+            <div class="contact__container bd-grid">
+                <form id="form" class="contact__form">
+                    <input name="fname" type="text" placeholder="Name" id="fname" class="contact__input">
+                    <textarea name="farea" placeholder="Comment...." id="farea" cols="0" rows="10"
+                        class="contact__input"></textarea>
+                    <button id="myBtn" type="submit" class="contact__button button">Enviar</button>
+                </form>
+            </div>
+        </section>
+<!-- 
+        <section class="visitor section" id="visitor">
+            <h2 class="section-title">Visitors</h2>
+
+            <div class="course__container bd-nGrid">
+                <div>
+                    <table id="visitor_table" class="display" width="100%"></table>
+                </div>
+            </div>
+        </section> -->
+    </section>
+</main>
+
+<footer class="footer">
+    <p class="footer__title">Antonio</p>
+    <p>&#169; 2021 copyright all right reserved</p>
+</footer>
+<script src="assets/js/visiter.js"></script>
+</body>
+
+</html>

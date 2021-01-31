@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="../assets/css/styles.css">
+
+  <title>Portfolio website complete</title>
+  <link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css" rel="stylesheet">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+  <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js" defer></script>
+</head>
+
+
+<body>
+
+
+  <header>
+    <nav class="nav bd-grid">
+      <div>
+        <a href="../skill.html#YRRS" class="nav__logo"><i class="bx bx-arrow-back"></i></a>
+      </div>
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="../index.html" class="nav__link">About Me</a></li>
+          <li class="nav__item"><a href="../skill.html" class="nav__link">Experience</a></li>
+          <li class="nav__item"><a href="../visiter.html" class="nav__link">Visiters</a></li>
+          <!-- <li class="nav__item"><a href="slide.html" class="nav__link">Slider</a></li> -->
+        </ul>
+      </div>
+      <div class="nav__toggle" id="nav-toggle">
+        <i class="bx bx-menu"></i>
+      </div>
+    </nav>
+
+    <div class="display-container">
+      <div class="main_image">
+        <h1>Yelp Restaurant Recommendation System</h1>
+        <img src="../assets/img/123.jpg" alt="boat" style="width:100%;height:20%;min-height:280px;max-height:600px;">
+      </div>
+    </div>
+  </header>
+
+
+
+
+  <main class="l-main">
+
+
+    <section class="images section" id="images">
+      <h2 class="section-title">Introduction - Yelp Restaurant Recommendation System</h2>
+      <div class="about__container bd-nGrid">
+        <p class="about__text">
+          • Designed a web application that enables user to search desired a restaurant based on relevant reviews.
+          <br><br>
+          • Utilized Yelp Fusion API and a retrieval model with Dirichlet Prior Smoothing to rank top 10 search results by indexing over 6 GB Yelp review data set
+      </div>
+
+      <br>
+      <div class="bd-nGrid">
+        <ul id='buttons'>
+          <li><a href="#">React</a></li>
+          <li><a href="#">Spring boot</a></li>
+          <li><a href="#">Dirichlet Prior Smoothing</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="work section" id="work">
+      <h2 class="section-title">Demo Video</h2>
+
+      <div class="about__container bd-nGrid ">
+        <div class="center_everyThing">
+          <video controls width="70%" height="400">
+            <source src="../assets/video/yelp.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+  
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p class="footer__title">Antonio</p>
+    <p>&#169; 2021 copyright all right reserved</p>
+</footer>
+  <script src="../assets/js/slide.js"></script>
+</body>
+
+</html>
