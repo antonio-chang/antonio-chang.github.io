@@ -47,7 +47,6 @@ body{
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   color: var(--second-color);
-  background-color: rgba(201, 76, 76, 0.3);
 }
 
 h1,h2,p{
@@ -761,6 +760,9 @@ body h1 {
 /* show Click  on text or image when mouse on  */
  .content_img_onText{
   position: relative;
+  /* margin-left: auto;
+  margin-right: auto; */
+  /* display: block; */
  }
 
 /* Child Text Container */
@@ -789,8 +791,8 @@ body h1 {
 
  .content_img{
   position: relative;
-  /* width: 200px;
-  height: 200px; */
+  width: 260px;
+  height: 260px;
   float: left;
   margin-right: 10px;
  }
@@ -963,3 +965,15 @@ li {
   padding: 0 8px;
 }
 /* working with centering the ui */
+
+
+.home__social{
+  padding-top: 0;
+  padding-bottom: 2.5rem;
+  flex-direction: row;
+  align-self: flex-end;
+}
+.home__social-icon{
+  margin-bottom: 0;
+  margin-right: var(--mb-4);
+}
